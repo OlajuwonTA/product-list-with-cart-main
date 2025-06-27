@@ -37,6 +37,8 @@ body {
   background-color: hsl(13, 31%, 94%);
   align-items: center;
   /* display: flex; */
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 .Ten {
   /* border: 2px solid blue; */
