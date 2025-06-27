@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box;
+  text-decoration: none; */
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+.look {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  /* padding-left:7px; */
+  /* border: 2px #d35400 solid; */
+  /* width: 50%; */
+  gap: 10px;
+}
+body {
+  background-color: hsl(13, 31%, 94%);
+  align-items: center;
+  /* display: flex; */
+}
+.Ten {
+  /* border: 2px solid blue; */
+  height: 35vh;
+  width: 50%;
+  background-color: hsl(20, 50%, 98%);
+  justify-content: center;
+  /* display: flex; */
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  text-align: center;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+  color: hsl(14, 86%, 42%);
+}
+h3 {
+  color: hsl(14, 65%, 9%);
+  font-size: 300;
+}
+.name {
+  color: hsl(7, 20%, 60%);
+}
+
+.cards {
+  align-items: center;
+  display: inline-block;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+/* div{
+  margin: auto;
+  padding: 1em;
+
+ } */
+
+.add {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  padding: 0.25rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: white;
+  color: #d35400;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* width: 50%; */
+  display: inline-flex;
+  gap: 0.3rem;
+}
+.sample {
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  overflow: visible;
+  /* transform: translateY(50%) */
+}
+.nine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+ 
+}
+.minus {
+  margin-top: 2rem;
+  /* padding-left: 0;
+    padding-right: 0; */
+  text-align: left;
+  margin: 1rem;
+}
+.yat {
+  /* border: 2px solid black; */
+  width: 250px;
+  margin-inline: auto;
+}
+
+@media screen and (min-width: 900px) {
+  .cards {
+    flex-direction: row;
+flex-wrap: wrap;
+  }
+
+}
